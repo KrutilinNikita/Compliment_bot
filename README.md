@@ -1,4 +1,4 @@
-# Complimrnt_bot
+# Compliment_bot
 
 Проект бота, который умеет делать комплименты 
 
