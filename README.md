@@ -1,6 +1,7 @@
 # Compliment Bot
 
 Compliment Bot — Telegram-бот, который создает комплименты на основе того, что пользователю нравится в девушке. Использует API Gemini и поддерживает прокси.
+Вы можете взаимодействовать с ботом по ссылке: [https://t.me/Compliment_Pro_Bot](https://t.me/Compliment_Pro_Bot).
 
 ## Описание проекта
 
@@ -50,14 +51,17 @@ PROXY=socks5h://username:password@host:port
 python compliment_bot/main.py
 ```
 
-### 6. Примечание
+**Примечание:**  
+Если сервис Gemini доступен без VPN, закомментируйте следующие строки в `chat_gpt.py`:
 
-Для проверки корректности работы:
+```python
+PROXY = os.getenv("PROXY")
 
-```bash
-python -m unittest discover -s tests
+# Настройка прокси
+os.environ['HTTP_PROXY'] = PROXY
+os.environ['HTTPS_PROXY'] = PROXY
 ```
 
 ## Контакты
 
-Если у вас есть вопросы или предложения, пишите на [nikita.krutilin@example.com](mailto:nikita.krutilin@example.com).
+Если у вас есть вопросы или предложения, пишите на [krutilin.n@yandex.ru](mailto:krutilin.n@yandex.ru).
