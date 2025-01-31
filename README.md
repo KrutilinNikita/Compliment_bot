@@ -64,4 +64,4 @@ os.environ['HTTPS_PROXY'] = PROXY
 
 ## Контакты
 
-Если у вас есть вопросы или предложения, пишите на почту krutilin.n@yandex.ru или в телеграмм [@Krutilin_Nikita](https://t.me/Krutilin_Nikita)
+Если у вас есть вопросы или предложения, пишите на почту krutilin.n@yandex.ru или в телеграм [@Krutilin_Nikita](https://t.me/Krutilin_Nikita)
