@@ -52,7 +52,7 @@ python compliment_bot/main.py
 ```
 
 **Примечание:**  
-Если сервис Gemini доступен без VPN, закомментируйте следующие строки в `chat_gpt.py`:
+Если сервис Gemini доступен без VPN, закомментируйте следующие строки в файле `chat_gpt.py`:
 
 ```python
 PROXY = os.getenv("PROXY")
